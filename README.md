@@ -4,7 +4,12 @@ API desenvolvida para no Processo seletivo da Instruct.
 
 ## Como usar
 
-### Servidor
+### Servidor Local
+
+Migrations:
+$ python manage.py makemigrations
+$ python manage.py migrate
+
 Para subir o servidor utilize:
 $ python manage.py runserver
 
